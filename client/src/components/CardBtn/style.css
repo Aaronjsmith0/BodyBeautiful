@@ -1,0 +1,8 @@
+.btn-danger1 {
+    border-radius: 50px;
+    position: absolute;
+    bottom: 8%;
+    left: 35%;
+    background-color: red;
+    color: white;
+}

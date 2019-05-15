@@ -1,0 +1,36 @@
+.mainLinks {
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signupButton {
+  border-radius: 50px;
+  padding: 2.7rem 3rem;
+}
+
+.top-bar, .top-bar ul {
+  background-color: white;
+  height: 100px;
+}
+
+.menu .menu-text {
+  padding: 2.2rem 4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: inherit;
+  font-size: 25px;
+}
+
+.dropdown.menu>li>a {
+  padding: 2.7rem 3rem;
+}
+
+.menu .clear {
+  padding: 2.5rem 2rem;
+}
+
+.signupButttonDiv {
+  padding: 1.7rem 1rem;
+}

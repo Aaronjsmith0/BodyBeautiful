@@ -1,0 +1,266 @@
+.jumbotron {
+    min-height: 600px;
+    padding-top: 100px;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.homeJumbotron1 {
+    background-image: url('../../pages/images/pebbles-and-sea-11284647414Rbeh.jpg');
+    width: 1517px;
+}
+
+.col {
+    height: 400px;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+
+.homePage2 {
+    min-height: 500px;
+    background-color: white;
+}
+
+.homePage3 {
+    min-height: 600px;
+    background-color: white;
+}
+
+.homePage4 {
+    min-height: 1350px;
+    background-color: white;
+}
+
+.homePage5 {
+    min-height: 650px;
+    background-color: white;
+}
+
+.homePage6 {
+    min-height: 380px;
+    background-color: white;
+}
+
+.jumboBox {
+    width: 980px;
+    height: 210px;
+    position: absolute;
+    top: 570px;
+    left: 250px;
+    z-index: 2;
+    background-color: white;
+}
+
+.jumboh1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.jumbo2h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.jumbo5h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+.jumboP {
+    text-align: center;
+}
+
+.jumbo5P {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 85px;
+}
+
+.icon {
+    background-image: url('../../pages/images/spaLogo.png');
+    position: absolute;
+    left: 708px;
+    width: 50px;
+    height: 35px;
+    top: 877px;
+    z-index: 2;
+}
+
+.jumboBox2 {
+    width: 980px;
+    height: 210px;
+    position: absolute;
+    top: 936px;
+    left: 250px;
+    z-index: 2;
+    background-color: white;
+}
+
+.cryoIMG {
+    background-image: url('../../pages/images/cryotherapy.jpg');
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 1200px;
+    left: 400px;
+    z-index: 2;
+}
+
+.card1 {
+    position: absolute;
+    top: 1458px;
+    left: 206px;
+    width: 350px;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card2 {
+    position: absolute;
+    top: 3540px;
+    left: 206px;
+    width: 350px;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger {
+    border-radius: 50px;
+}
+
+.signUp {
+    border-radius: 50px;
+    margin-left: 280px;
+}
+
+.jumboBox3 {
+    width: 980px;
+    height: 60px;
+    position: absolute;
+    top: 1850px;
+    left: 250px;
+    z-index: 2;
+    background-color: white;
+}
+
+.map {
+    background-image: url('../../pages/images/map.PNG');
+    width: 985px;
+    height: 502px;
+    position: absolute;
+    top: 1932px;
+    left: 255px;
+    z-index: 2;
+}
+
+.jumboBox4 {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    top: 2550px;
+    left: 380px;
+    z-index: 2;
+    background-color: white;
+}
+
+.card-group {
+    margin-top: 870px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body-2 {
+    text-align: center;
+    margin-top: 53px;
+}
+
+.card-body-3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card-img-top-1 {
+    background-image: url('../../pages/images/The-Woodhouse-Day-Spa-SouthGlenn-Centennial-CO-pedicure-chairs.jpg');
+    height: 240px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.card-img-top-2 {
+    background-image: url('../../pages/images/inside-gym.png');
+    height: 179px;
+    width: 360px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.card-img-top-3 {
+    background-image: url('../../pages/images/Cupping-banner.jpg');
+    height: 201px;
+    width: 360px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.messageTable {
+    background-image: url('../../pages/images/napa-la-mer-eu-habitat.jpg');
+    height: 516px;
+    width: 746px;
+    margin-left: 200px;
+}
+
+.jumboBox5 {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    top: 3900px;
+    left: 380px;
+    z-index: 2;
+    background-color: white;
+}
+
+.footerContainer {
+    background-color: white;
+    padding-top: 20px;
+    border-top: 5px black solid;
+}
+
+.icon2 {
+    background-image: url('../../pages/images/spaLogo.png');
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    margin-left: 35px;
+}
+
+.nav {
+    margin-left: 55px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.footerHeader {
+    margin-left: 90px;
+}
+
+.col-md-5 {
+    padding: 0px;
+}
+
+.footerRow {
+    width: 1516px;
+}
