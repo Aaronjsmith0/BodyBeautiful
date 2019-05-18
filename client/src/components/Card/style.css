@@ -3,3 +3,13 @@
     height: 400px;
     width: 400px;
 }
+
+.card-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 60px;
+    font-weight: bold;
+}

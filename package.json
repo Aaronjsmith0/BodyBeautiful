@@ -21,11 +21,21 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "express": "^4.16.3",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
     "if-env": "^1.0.4",
-    "mongoose": "^5.3.16",
+    "mongoose": "^5.5.8",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "reactstrap": "^8.0.0"
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "^8.0.0",
+    "spectre.css": "^0.5.8"
   }
 }

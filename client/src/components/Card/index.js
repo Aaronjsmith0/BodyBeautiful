@@ -8,23 +8,26 @@ const Cards = (props) => {
         <Row>
             <Col sm="4">
                 <Card body>
-                    <CardTitle>Special Title Treatment</CardTitle>
-                    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                    <CardBtn>Go somewhere</CardBtn>
+                    <CardTitle>Deluxe Package</CardTitle>
+                    <CardText>Get Restored and Pampered to the MAX!</CardText>
+                    <CardText className="price">$250/mo</CardText>
+                    <CardBtn></CardBtn>
                 </Card>
             </Col>
             <Col sm="4">
                 <Card body>
-                    <CardTitle>Special Title Treatment</CardTitle>
-                    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                    <CardBtn>Go somewhere</CardBtn>
+                    <CardTitle>Pro Package</CardTitle>
+                    <CardText>Just looking for a little rest and relaxation.</CardText>
+                    <CardText className="price">$150/mo</CardText>
+                    <CardBtn></CardBtn>
                 </Card>
             </Col>
             <Col sm="4">
                 <Card body>
-                    <CardTitle>Special Title Treatment</CardTitle>
-                    <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                    <CardBtn>Go somewhere</CardBtn>
+                    <CardTitle>Trial Package</CardTitle>
+                    <CardText>Just looking to see what the subscription is like..</CardText>
+                    <CardText className="price">$50/mo</CardText>
+                    <CardBtn></CardBtn>
                 </Card>
             </Col>
         </Row>

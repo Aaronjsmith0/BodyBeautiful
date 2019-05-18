@@ -13,6 +13,7 @@
 .top-bar, .top-bar ul {
   background-color: white;
   height: 100px;
+  padding-bottom: 20px;
 }
 
 .menu .menu-text {

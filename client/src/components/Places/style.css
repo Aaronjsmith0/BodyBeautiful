@@ -7,8 +7,8 @@
     padding-right: 0px;
 }
 
-.pricingJumbotron1 {
-    background-image: url('../../pages/images/sunset.jpg');
+.placesJumbotron1 {
+    background-image: url('../../pages/images/nighttime.jpg');
     width: 1517px;
 }
 
@@ -19,8 +19,13 @@
 }
 
 .homePage2 {
-    min-height: 355px;
+    min-height: 325px;
     background-color: white;
+}
+
+.serviceBTN {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .homePage3 {
