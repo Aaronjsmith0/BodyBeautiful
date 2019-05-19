@@ -26,6 +26,7 @@
 .homePage3 {
     min-height: 600px;
     background-color: white;
+    padding-top: 40px;
 }
 
 .jumboBox {
@@ -60,4 +61,5 @@
     left: 250px;
     z-index: 2;
     background-color: white;
+    margin-bottom: 20px;
 }

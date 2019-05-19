@@ -1,9 +1,21 @@
 import React, { Component } from "react";
 import "./style.css";
-import PlaceCards from "../PlaceCards"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import BlowoutCards from "../BlowoutCards"
 import ServicesBtn from "../ServicesBtn"
+import CuppingCards from "../CuppingCards";
 
 class Place extends Component {
+    state={
+        selection: null
+    }
+
+    onSelectButton = (selection) => {
+        this.setState({
+            selection: selection
+        })
+    }
+
     render() {
         return (
             <div className="mainDiv">
@@ -23,10 +35,11 @@ class Place extends Component {
                     </div>
                 </div>
                 <div className="serviceBTN">
-                    <ServicesBtn />
+                    <ServicesBtn onSelectButton={this.onSelectButton}/>
                 </div>
-                <div className="homePage3">
-                    <PlaceCards />
+                <div className="homePagePlaces">
+                    {this.state.selection === "blowouts" ? <BlowoutCards />: null}
+                    {this.state.selection === "cupping" ? <CuppingCards />: null}
                 </div>
             </div>
         )

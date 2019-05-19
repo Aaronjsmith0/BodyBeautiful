@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
 import Cards from "../Card";
+import DropText from "../DropText";
 
 class Price extends Component {
     render() {
@@ -17,7 +18,7 @@ class Price extends Component {
                                 <p className="jumboP">A membership that fits your needs, lifestyle, and budget. Upgrade or downgrade at anytime.</p>
                             </div>
                             <div className="jumboBox2">
-                                <h1 className="jumbo2h1">You are Looking at Pricing for Dallas/Forth Worth, TX</h1>
+                                <h1 className="jumbo2h1">You are Currently Looking at Pricing for {<DropText />}</h1>
                             </div>
                         </div>
                     </div>

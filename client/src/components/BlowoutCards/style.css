@@ -1,0 +1,42 @@
+.placesCard {
+    border: 1px solid black;
+    width: 1340px;
+    height: 400px;
+}
+
+.card {
+    height: 585px;
+}
+
+.placesRow {
+    width: 1450px;
+    justify-content: center;
+    margin: auto;
+}
+
+.BlowoutImg1 {
+    background-image: url('../../pages/images/drybar.jpg');
+    height: 350px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BlowoutImg2 {
+    background-image: url('../../pages/images/Blo.jpg');
+    height: 341px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BlowoutImg3 {
+    background-image: url('../../pages/images/thehairbar.PNG');
+    height: 346px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

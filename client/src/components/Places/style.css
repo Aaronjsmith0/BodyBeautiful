@@ -25,11 +25,12 @@
 
 .serviceBTN {
     margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
 }
 
-.homePage3 {
-    min-height: 600px;
+.homePagePlaces {
+    min-height: 100px;
     background-color: white;
 }
 

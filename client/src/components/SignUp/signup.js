@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import "./signup.css";
 
 class Signup extends Component {
 	constructor() {
@@ -8,7 +9,7 @@ class Signup extends Component {
 			username: '',
 			password: '',
 			confirmPassword: '',
-
+			userplan: ''
 		}
 		this.handleSubmit = this.handleSubmit.bind(this)
 		this.handleChange = this.handleChange.bind(this)
@@ -45,7 +46,7 @@ class Signup extends Component {
 	render() {
 		return (
 			<div className="SignupForm">
-				<h4>Sign up</h4>
+				<h4 className="signuph4">Sign up</h4>
 				<form className="form-horizontal">
 					<div className="form-group">
 						<div className="col-1 col-ml-auto">

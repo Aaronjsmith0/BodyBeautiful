@@ -4,10 +4,10 @@ import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reac
 export default class ServicesBtn extends React.Component {
     constructor(props) {
         super(props);
-
+        console.log(props);
         this.toggle = this.toggle.bind(this);
         this.state = {
-            dropdownOpen: false
+            dropdownOpen: false,
         };
     }
 
@@ -20,15 +20,15 @@ export default class ServicesBtn extends React.Component {
     render() {
         return (
             <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                <DropdownToggle caret>
-                    Button Dropdown
+                <DropdownToggle caret color="danger">
+                    Search Services & Places
         </DropdownToggle>
                 <DropdownMenu>
-                    <DropdownItem header>Header</DropdownItem>
-                    <DropdownItem disabled>Action</DropdownItem>
-                    <DropdownItem>Another Action</DropdownItem>
+                    <DropdownItem header>Pamper</DropdownItem>
+                    <DropdownItem onClick={() => this.props.onSelectButton("blowouts")}>Blowouts</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Another Action</DropdownItem>
+                    <DropdownItem header>Restore</DropdownItem>
+                    <DropdownItem onClick={() => this.props.onSelectButton("cupping")}>Cupping</DropdownItem>
                 </DropdownMenu>
             </ButtonDropdown>
         );
