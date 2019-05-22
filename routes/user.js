@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const User = require('../db/models/user')
+const Contact = require('../db/models/contactUs')
 const passport = require('../passport')
 
 router.post('/', (req, res) => {
@@ -51,18 +52,11 @@ router.post(
 )
 
 router.post(
-    '/userplan',
-    function (req, res, next) {
-        console.log('routes/user.js, userplan, req.body: ');
-        console.log(req.body)
-        next()
-    },
-    (req, res) => {
+    '/userplan', (req, res) => {
         console.log('Plan selected', req.user);
-        var userInfo = {
-            userplan: req.user.userplan
-        };
-        res.send(userInfo);
+        User.findOneAndUpdate({ username: req.body.username }, { userplan: req.body.userplan}, (err, user) => {
+            res.send(user);
+        })
     }
 )
 
@@ -82,6 +76,20 @@ router.post('/logout', (req, res) => {
     } else {
         res.send({ msg: 'no user to log out' })
     }
+})
+
+router.post('/contact', (req, res) => {
+    console.log('Contact Message Sent');
+
+    const { email, message } = req.body
+    const newContact = new Contact({
+        email: email,
+        message: message,
+    })
+    newContact.save((err, savedContact) => {
+        if (err) return res.json(err)
+        res.json(savedContact)
+    })
 })
 
 module.exports = router

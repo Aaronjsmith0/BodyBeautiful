@@ -36,7 +36,7 @@ class Nav extends Component {
         <div className="top-bar" data-sticky data-margin-top="0">
           <div className="top-bar-left">
             <ul className="dropdown menu siteTitle">
-              <li><a className="menu-text" href="/">Restore-and-Pamper</a></li>
+              <li><a className="menu-text" href="/">BodyBeautiful</a></li>
             </ul>
           </div>
           <div className="top-bar-middle" data-magellan>
@@ -58,7 +58,7 @@ class Nav extends Component {
                   <Link to="/login" className="btn btn-link text-secondary">
                     <span className="text-secondary">login</span>
                   </Link>
-                  <Link to="/signup" className="btn btn-link">
+                  <Link to="/signup" className="btn btn-danger">
                     <span className="text-secondary">sign up</span>
                   </Link>
                 </section>

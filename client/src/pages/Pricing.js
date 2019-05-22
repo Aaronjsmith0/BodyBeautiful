@@ -12,7 +12,7 @@ class Pricing extends Component {
         return (
             <Container fluid>
                 <Row>
-                    <Price />
+                    <Price username={this.props.username}/>
                 </Row>
             </Container>
         )

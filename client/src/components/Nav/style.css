@@ -8,6 +8,7 @@
 .signupButton {
   border-radius: 50px;
   padding: 2.7rem 3rem;
+  color: white;
 }
 
 .top-bar, .top-bar ul {

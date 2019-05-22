@@ -22,7 +22,7 @@ class Home extends Component {
                             <div className="icon">
                             </div>
                             <div className="jumboBox2">
-                                <h1 className="jumbo2h1">RestoreNPamper was made off the thought that you should be able to have one membership for all of your restoration and pamper needs.</h1>
+                                <h1 className="jumbo2h1">BodyBeautiful was made off the thought that you should be able to have one membership for all of your restoration and pamper needs.</h1>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ class Home extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="jumboBox5">
-                                <h1 className="jumbo5h1">#RestoreNPamper</h1>
+                                <h1 className="jumbo5h1">#BodyBeautiful</h1>
                                 <p className="jumbo5P">Check us out on Instagram!</p>
                                 <a href="/pricing" className="btn btn-danger signUp">Sign up For You Membership</a>
                             </div>

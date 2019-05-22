@@ -6,8 +6,8 @@ import "./style.css";
 import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 
 class Cards extends Component {
-    constructor() {
-		super()
+    constructor(props) {
+		super(props)
 		this.state = {
 			userplan: '',
 		}
@@ -19,12 +19,15 @@ class Cards extends Component {
 			[event.target.name]: event.target.value
 		})
 	}
-    handleSubmit(event) {
-        event.preventDefault()
+    handleSubmit(plan, e) {
+        e.preventDefault();
+        console.log(plan);
+        console.log(this.props.username);
 
         axios
             .post('/user/userplan', {
-                userplan: this.state.userplan
+                userplan: plan,
+                username: this.props.username
             })
             .then(response => {
                 console.log(response)
@@ -33,9 +36,6 @@ class Cards extends Component {
                     if (this.props.updateUser) {
                         this.props.updateUser({
                             userplan: response.data.userplan
-                        })
-                        this.setState({
-                            redirectTo: '/'
                         })
                     }
                 }
@@ -54,7 +54,7 @@ class Cards extends Component {
                         <CardText>Get Restored and Pampered to the MAX!</CardText>
                         <CardText className="price">$250/mo</CardText>
                         <CardText>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</CardText>
-                        <CardBtn onClick={this.handleSubmit}></CardBtn>
+                        <CardBtn onClick={(e) => this.handleSubmit("Diamond", e)}></CardBtn>
                     </Card>
                 </Col>
                 <Col sm="4">
@@ -63,7 +63,7 @@ class Cards extends Component {
                         <CardText>Just looking for a little rest and relaxation.</CardText>
                         <CardText className="price">$150/mo</CardText>
                         <CardText>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</CardText>
-                        <CardBtn onClick={this.handleSubmit}></CardBtn>
+                        <CardBtn onClick={(e) => this.handleSubmit("Sapphire", e)}></CardBtn>
                     </Card>
                 </Col>
                 <Col sm="4">
@@ -72,7 +72,7 @@ class Cards extends Component {
                         <CardText>Just looking to see what the subscription is like..</CardText>
                         <CardText className="price">$50/mo</CardText>
                         <CardText>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</CardText>
-                        <CardBtn onClick={this.handleSubmit}></CardBtn>
+                        <CardBtn onClick={(e) => this.handleSubmit("Ruby", e)}></CardBtn>
                     </Card>
                 </Col>
             </Row>

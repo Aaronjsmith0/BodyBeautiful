@@ -26,7 +26,7 @@ class Price extends Component {
                 <div className="homePage3">
                     <div className="container">
                         <div className="row">
-                            <Cards />
+                            <Cards username={this.props.username}/>
                         </div>
                     </div>
                 </div>

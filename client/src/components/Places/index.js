@@ -26,7 +26,7 @@ class Place extends Component {
                         <div className="row">
                             <div className="jumboBox">
                                 <h1 className="jumboh1">So Many Places...</h1>
-                                <h1 className="jumboh1">Which One Will You Choose First?</h1>
+                                <h1 className="jumboh1">Hard To Choose What To Do First!</h1>
                             </div>
                             <div className="jumboBox2">
                                 <h1 className="jumbo2h1">You are Looking at Places in Dallas/Forth Worth, TX</h1>
