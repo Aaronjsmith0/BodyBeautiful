@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import DropText from "../DropText";
 import "./style.css";
 
 class Home extends Component {
     constructor() {
         super()
     }
-    
+
     render() {
         return (
             <div className="mainDiv" >
@@ -45,10 +46,12 @@ class Home extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="jumboBox3">
-                                <h1 className="jumbo2h1">Find All spas near Dallas/Forth Worth, TX</h1>
+                                <div className="icon7"></div>
+                                <h1 className="jumbo2h1">Find All spas near {<DropText />}</h1>
                             </div>
                             <div className="map"></div>
                             <div className="jumboBox4">
+                                <div className="icon6"></div>
                                 <h1 className="jumbo2h1">Designed for people who want more out of their memberships.</h1>
                             </div>
                             <div className="card-group">
@@ -95,6 +98,7 @@ class Home extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="jumboBox5">
+                                <div className="icon3"></div>
                                 <h1 className="jumbo5h1">#BodyBeautiful</h1>
                                 <p className="jumbo5P">Check us out on Instagram!</p>
                                 <a href="/pricing" className="btn btn-danger signUp">Sign up For You Membership</a>

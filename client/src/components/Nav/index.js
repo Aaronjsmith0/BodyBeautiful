@@ -36,6 +36,7 @@ class Nav extends Component {
         <div className="top-bar" data-sticky data-margin-top="0">
           <div className="top-bar-left">
             <ul className="dropdown menu siteTitle">
+              <li><div className="icon4"></div></li>
               <li><a className="menu-text" href="/">BodyBeautiful</a></li>
             </ul>
           </div>

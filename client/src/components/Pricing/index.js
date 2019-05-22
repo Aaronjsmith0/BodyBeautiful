@@ -18,6 +18,7 @@ class Price extends Component {
                                 <p className="jumboP">A membership that fits your needs, lifestyle, and budget. Upgrade or downgrade at anytime.</p>
                             </div>
                             <div className="jumboBox2">
+                                <div className="icon5"></div>
                                 <h1 className="jumbo2h1">You are Currently Looking at Pricing for {<DropText />}</h1>
                             </div>
                         </div>
@@ -26,7 +27,7 @@ class Price extends Component {
                 <div className="homePage3">
                     <div className="container">
                         <div className="row">
-                            <Cards username={this.props.username}/>
+                            <Cards username={this.props.username} />
                         </div>
                     </div>
                 </div>

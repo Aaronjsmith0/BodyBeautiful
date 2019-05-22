@@ -6,7 +6,7 @@ import ServicesBtn from "../ServicesBtn"
 import CuppingCards from "../CuppingCards";
 
 class Place extends Component {
-    state={
+    state = {
         selection: null
     }
 
@@ -26,20 +26,27 @@ class Place extends Component {
                         <div className="row">
                             <div className="jumboBox">
                                 <h1 className="jumboh1">So Many Places...</h1>
-                                <h1 className="jumboh1">Hard To Choose What To Do First!</h1>
+                                <h1 className="jumboh1">Which Will You Choose First!</h1>
                             </div>
                             <div className="jumboBox2">
+                                <div className="icon8"></div>
                                 <h1 className="jumbo2h1">You are Looking at Places in Dallas/Forth Worth, TX</h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="serviceBTN">
-                    <ServicesBtn onSelectButton={this.onSelectButton}/>
+                    <ServicesBtn onSelectButton={this.onSelectButton} />
                 </div>
                 <div className="homePagePlaces">
-                    {this.state.selection === "blowouts" ? <BlowoutCards />: null}
-                    {this.state.selection === "cupping" ? <CuppingCards />: null}
+                    {this.state.selection === "blowouts" ? <BlowoutCards /> : null}
+                    {this.state.selection === "cupping" ? <CuppingCards /> : null}
+                    {/* {this.state.selection === "facials" ? <FacialCards />: null}
+                    {this.state.selection === "maniPedi" ? <ManiPediCards />: null}
+                    {this.state.selection === "waxing" ? <WaxingCards />: null}
+                    {this.state.selection === "acupuncture" ? <AcupunctureCards />: null}
+                    {this.state.selection === "cryotherapy" ? <CryotherapyCards />: null}
+                    {this.state.selection === "massage" ? <MassageCards />: null} */}
                 </div>
             </div>
         )
