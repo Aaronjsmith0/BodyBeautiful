@@ -10,7 +10,6 @@ const app = express();
 const user = require('./routes/user')
 var dbConnection = require("./db");
 
-// Define middleware here
 app.use(morgan('dev'))
 app.use(
 	bodyParser.urlencoded({
@@ -22,29 +21,24 @@ app.use(express.urlencoded({
   extended: true
 }));
 app.use(express.json());
-// Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
 app.use(
 	session({
-		secret: 'fraggle-rock', //pick a random string to make the hash that is generated secure
+		secret: 'fraggle-rock', 
 		store: new MongoStore({ mongooseConnection: dbConnection }),
-		resave: false, //required
-		saveUninitialized: false //required
+		resave: false, 
+		saveUninitialized: false 
 	})
 )
 
-// Passport
 app.use(passport.initialize())
 app.use(passport.session())
 
-// Use apiRoutes
 app.use('/user', user)
 
-// Send every request to the React app
-// Define any API routes before this runs
 app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
