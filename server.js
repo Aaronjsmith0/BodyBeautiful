@@ -11,8 +11,6 @@ const app = express();
 const user = require('./routes/user')
 var dbConnection = require("./db");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://ajsmith7:Futo1234!@ds341825.mlab.com:41825/heroku_7kchmtpr");
-
 app.use(morgan('dev'))
 app.use(
 	bodyParser.urlencoded({

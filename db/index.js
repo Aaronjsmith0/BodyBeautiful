@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 mongoose.Promise = global.Promise
 
-const uri = 'mongodb://localhost:27017/BodyBeautiful'
+const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/BodyBeautiful'
 
 mongoose.connect(uri).then(
     () => {
