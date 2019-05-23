@@ -4,6 +4,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BlowoutCards from "../BlowoutCards"
 import ServicesBtn from "../ServicesBtn"
 import CuppingCards from "../CuppingCards";
+import FacialCards from "../FacialCards";
+import ManiPediCards from "../ManiPediCards";
+import WaxingCards from "../WaxingCards";
+import AcupunctureCards from "../AcupunctureCards";
+import CryotherapyCards from "../CryotherapyCards";
+import MassageCards from "../MassageCards";
 
 class Place extends Component {
     state = {
@@ -26,7 +32,7 @@ class Place extends Component {
                         <div className="row">
                             <div className="jumboBox">
                                 <h1 className="jumboh1">So Many Places...</h1>
-                                <h1 className="jumboh1">Which Will You Choose First!</h1>
+                                <h1 className="jumboh1">Which Will You Try First!</h1>
                             </div>
                             <div className="jumboBox2">
                                 <div className="icon8"></div>
@@ -41,12 +47,12 @@ class Place extends Component {
                 <div className="homePagePlaces">
                     {this.state.selection === "blowouts" ? <BlowoutCards /> : null}
                     {this.state.selection === "cupping" ? <CuppingCards /> : null}
-                    {/* {this.state.selection === "facials" ? <FacialCards />: null}
+                    {this.state.selection === "facials" ? <FacialCards />: null}
                     {this.state.selection === "maniPedi" ? <ManiPediCards />: null}
                     {this.state.selection === "waxing" ? <WaxingCards />: null}
                     {this.state.selection === "acupuncture" ? <AcupunctureCards />: null}
                     {this.state.selection === "cryotherapy" ? <CryotherapyCards />: null}
-                    {this.state.selection === "massage" ? <MassageCards />: null} */}
+                    {this.state.selection === "massage" ? <MassageCards />: null}
                 </div>
             </div>
         )

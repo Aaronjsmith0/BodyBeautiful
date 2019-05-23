@@ -15,7 +15,7 @@ class Price extends Component {
                             <div className="jumboBox">
                                 <h1 className="jumboh1">Multiple Plans &</h1>
                                 <h1 className="jumboh1">Pricing Options Available.</h1>
-                                <p className="jumboP">A membership that fits your needs, lifestyle, and budget. Upgrade or downgrade at anytime.</p>
+                                <p className="jumboP">A membership that fits your needs, lifestyle, and budget. Add on any package at anytime.</p>
                             </div>
                             <div className="jumboBox2">
                                 <div className="icon5"></div>

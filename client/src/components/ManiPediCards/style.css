@@ -1,0 +1,42 @@
+.placesCard {
+    border: 1px solid black;
+    width: 1340px;
+    height: 400px;
+}
+
+.card {
+    height: 585px;
+}
+
+.placesRow {
+    width: 1450px;
+    justify-content: center;
+    margin: auto;
+}
+
+.ManiPediImg1 {
+    background-image: url('../../pages/images/uptownNail.PNG');
+    height: 433px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ManiPediImg2 {
+    background-image: url('../../pages/images/nailed.PNG');
+    height: 408px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ManiPediImg3 {
+    background-image: url('../../pages/images/castlespa.PNG');
+    height: 403px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

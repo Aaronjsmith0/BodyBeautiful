@@ -1,0 +1,42 @@
+.placesCard {
+    border: 1px solid black;
+    width: 1340px;
+    height: 400px;
+}
+
+.card {
+    height: 585px;
+}
+
+.placesRow {
+    width: 1450px;
+    justify-content: center;
+    margin: auto;
+}
+
+.CryotherapyImg1 {
+    background-image: url('../../pages/images/cryo1one.PNG');
+    height: 226px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CryotherapyImg2 {
+    background-image: url('../../pages/images/katytrail.PNG');
+    height: 426px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CryotherapyImg3 {
+    background-image: url('../../pages/images/cryoUSA.PNG');
+    height: 314px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

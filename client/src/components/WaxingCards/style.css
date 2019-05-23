@@ -1,0 +1,42 @@
+.placesCard {
+    border: 1px solid black;
+    width: 1340px;
+    height: 400px;
+}
+
+.card {
+    height: 585px;
+}
+
+.placesRow {
+    width: 1450px;
+    justify-content: center;
+    margin: auto;
+}
+
+.WaxingImg1 {
+    background-image: url('../../pages/images/waxingCity.PNG');
+    height: 351px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WaxingImg2 {
+    background-image: url('../../pages/images/relaxAndwax.PNG');
+    height: 316px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WaxingImg3 {
+    background-image: url('../../pages/images/theprettykitty.PNG');
+    height: 419px;
+    width: 640px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
