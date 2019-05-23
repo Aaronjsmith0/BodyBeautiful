@@ -4,7 +4,6 @@ import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap
 export default class DropText extends React.Component {
     constructor(props) {
         super(props);
-        console.log(props);
         this.toggle = this.toggle.bind(this);
         this.state = {
             dropdownOpen: false,

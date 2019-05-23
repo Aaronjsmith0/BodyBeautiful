@@ -4,7 +4,6 @@ import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reac
 export default class ServicesBtn extends React.Component {
     constructor(props) {
         super(props);
-        console.log(props);
         this.toggle = this.toggle.bind(this);
         this.state = {
             dropdownOpen: false,

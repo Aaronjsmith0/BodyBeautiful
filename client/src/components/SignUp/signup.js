@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Redirect } from 'react-router-dom'
 import axios from 'axios'
 import "./signup.css";
 
@@ -27,17 +28,13 @@ class Signup extends Component {
 			password: this.state.password
 		})
 			.then(response => {
-				console.log(response)
 				if (!response.data.errmsg) {
-					console.log('successful signup')
 					this.setState({ 
 						redirectTo: '/login'
 					})
 				} else {
-					console.log('username already taken')
 				}
 			}).catch(error => {
-				console.log('signup error: ')
 				console.log(error)
 			})
 	}

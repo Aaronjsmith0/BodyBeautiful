@@ -31,9 +31,7 @@ class Footer extends Component {
             message: this.state.message
         })
             .then(response => {
-                console.log(response)
                 if (!response.data.errmsg) {
-                    console.log('successful contact')
                     this.setState({email: "", message: ""})
                 }
             }).catch(error => {

@@ -2,7 +2,6 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
-const mongoose = require("mongoose");
 const session = require('express-session')
 const MongoStore = require('connect-mongo')(session)
 const passport = require('./passport');

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./style.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BlowoutCards from "../BlowoutCards"
 import ServicesBtn from "../ServicesBtn"
 import CuppingCards from "../CuppingCards";

@@ -1,7 +1,6 @@
 import React from 'react';
-import CardBtn from "../CardBtn";
 import "./style.css";
-import { Card, CardImg, CardText, CardBody, CardLink, CardTitle, CardSubtitle, Row, Col } from 'reactstrap';
+import { Card, CardText, CardBody, CardLink, CardTitle, CardSubtitle, Row } from 'reactstrap';
 
 const BlowoutCards = (props) => {
     return (

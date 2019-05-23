@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import CardBtn from "../CardBtn";
-import { Redirect } from 'react-router-dom'
 import axios from 'axios'
 import "./style.css";
-import { Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { Card, CardTitle, CardText, Row, Col } from 'reactstrap';
 
 class Cards extends Component {
     constructor(props) {
@@ -21,8 +20,6 @@ class Cards extends Component {
     }
     handleSubmit(plan, e) {
         e.preventDefault();
-        console.log(plan);
-        console.log(this.props.username);
 
         axios
             .post('/user/userplan', {
@@ -30,8 +27,6 @@ class Cards extends Component {
                 username: this.props.username
             })
             .then(response => {
-                console.log(response)
-
                 if (response.status === 200) {
                     if (this.props.updateUser) {
                         this.props.updateUser({
@@ -52,11 +47,11 @@ class Cards extends Component {
                     <Card body className="priceCards">
                         <CardTitle className="title">Diamond Package</CardTitle>
                         <CardText>Get Restored and Pampered to the MAX!</CardText>
-                        <CardText className="price">$250/mo</CardText>
+                        <CardText className="price">$250</CardText>
                         <CardText>
                             &#10004; Most available features.<br></br>
                             &#10004; Customize Your Plan.<br></br>
-                            &#10004; Most number of visits per month.<br></br>
+                            &#10004; Most number of premium visits.<br></br>
                             &#10004; Pause or change at any time.<br></br>
                         </CardText>
                         <CardBtn onClick={(e) => this.handleSubmit("Diamond", e)}></CardBtn>
@@ -66,7 +61,7 @@ class Cards extends Component {
                     <Card body className="priceCards">
                         <CardTitle className="title">Sapphire Package</CardTitle>
                         <CardText>Just looking for a little rest and relaxation.</CardText>
-                        <CardText className="price">$150/mo</CardText>
+                        <CardText className="price">$150</CardText>
                         <CardText>
                             &#10004; A little less features than Diamond Package.<br></br>
                             &#10004; Customize Your Plan.<br></br>
@@ -80,7 +75,7 @@ class Cards extends Component {
                     <Card body className="priceCards">
                         <CardTitle className="title">Ruby Package</CardTitle>
                         <CardText>Just looking to see what the subscription is like..</CardText>
-                        <CardText className="price">$50/mo</CardText>
+                        <CardText className="price">$50</CardText>
                         <CardText>
                             &#10004; The most basic package available.<br></br>
                             &#10004; A trial plan just for you.<br></br>
