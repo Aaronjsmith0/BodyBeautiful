@@ -8,6 +8,7 @@ import Pricing from "./pages/Pricing";
 import Places from "./pages/Places";
 import SignUp from "./pages/SignUp";
 import Login from './pages/Login'
+import Reservations from './pages/Reservations'
 
 class App extends Component {
   constructor() {
@@ -59,6 +60,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/pricing" render={() => <Pricing username={this.state.username}/>}/>
+          <Route exact path="/reservations" render={() => <Reservations username={this.state.username}/>}/>
           <Route exact path="/places" component={Places} />
           <Route exact path="/login" render={() => <Login updateUser={this.updateUser}/>} />
           <Route exact path="/signup" render={() => <SignUp signup={this.signup}/>} />

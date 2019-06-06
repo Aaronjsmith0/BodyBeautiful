@@ -1,0 +1,83 @@
+.jumbotron {
+    min-height: 600px;
+    padding-top: 100px;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.reservationJumbotron1 {
+    background-image: url('../../pages/images/nightbanner.jpg');
+    width: 1517px;
+}
+
+.col {
+    height: 400px;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+
+.homePage2 {
+    min-height: 325px;
+    background-color: white;
+}
+
+.serviceBTN {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.homePagePlaces {
+    min-height: 100px;
+    background-color: white;
+}
+
+.jumboBox {
+    width: 980px;
+    height: 210px;
+    position: absolute;
+    top: 570px;
+    left: 250px;
+    z-index: 2;
+    background-color: white;
+}
+
+.jumboh1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.jumbo2h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.jumboP {
+    text-align: center;
+}
+
+.jumboBox2 {
+    width: 980px;
+    height: 85px;
+    position: absolute;
+    top: 936px;
+    left: 260px;
+    z-index: 2;
+    background-color: white;
+}
+
+.icon8 {
+    background-image: url('../../pages/images/bblogo.jpg');
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    left: 460px;
+    top: -50px;
+}
+
+.reserveHomePage3 {
+    width: 1220px;
+}

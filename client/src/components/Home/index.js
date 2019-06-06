@@ -35,7 +35,7 @@ class Home extends Component {
                             <div className="card1">
                                 <div className="card-body">
                                     <h5 className="card-title">Because having one pass for many spas is better.</h5>
-                                    <p className="card-text">Ready to be able to choose from many spas with one membership?</p>
+                                    <p className="card-text">Use your points to visit all the best spas around you locally!</p>
                                     <a href="/places" className="btn btn-danger">View Spas</a>
                                 </div>
                             </div>

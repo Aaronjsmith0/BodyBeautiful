@@ -48,6 +48,7 @@ class Cards extends Component {
                         <CardTitle className="title">Diamond Package</CardTitle>
                         <CardText>Get Restored and Pampered to the MAX!</CardText>
                         <CardText className="price">$250</CardText>
+                        <CardText className="title">2500 Points</CardText>
                         <CardText>
                             &#10004; Most available features.<br></br>
                             &#10004; Customize Your Plan.<br></br>
@@ -62,6 +63,7 @@ class Cards extends Component {
                         <CardTitle className="title">Sapphire Package</CardTitle>
                         <CardText>Just looking for a little rest and relaxation.</CardText>
                         <CardText className="price">$150</CardText>
+                        <CardText className="title">1500 Points</CardText>
                         <CardText>
                             &#10004; A little less features than Diamond Package.<br></br>
                             &#10004; Customize Your Plan.<br></br>
@@ -76,6 +78,7 @@ class Cards extends Component {
                         <CardTitle className="title">Ruby Package</CardTitle>
                         <CardText>Just looking to see what the subscription is like..</CardText>
                         <CardText className="price">$50</CardText>
+                        <CardText className="title">500 Points</CardText>
                         <CardText>
                             &#10004; The most basic package available.<br></br>
                             &#10004; A trial plan just for you.<br></br>
